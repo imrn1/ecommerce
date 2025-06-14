@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    height: 1500px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-color: #211C24;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerText {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-top: 88px;
+}
+
+.bannerText p {
+    margin: 0px;
+    padding-bottom: 16px;
+}
+
+.bannerText .title {
+    font-size: 25px;
+    color: #FFFFFF;
+    opacity: 40%;
+}
+
+.bannerText .subtitle {
+    font-size: 72px;
+    color: #FFFFFF;
+    width: 90%;
+}
+
+.bannerText .detail {
+    font-size: 19px;
+    color: #909090;
+}
+
+.banner .buyNow {
+    width: 184px;
+    height: 56px;
+    margin-top: 16px;
+    background: none;
+    ;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    color: #FFFFFF;
+}
+
+.banner .bannerImg {
+    margin-top: 48px;
+}
+
+.banners,
+.banners .bnr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+.bnr {
+    padding: 8px 16px;
+    height: 368px;
+}
+
+.bnr p {
+    margin: 0px;
+}
+
+.bnr .bnr_title {
+    font-size: 34px;
+    color: #000000;
+    font-weight: 300;
+    margin-top: 24px
+}
+
+.bnr .bnr_subtitle {
+    font-size: 16px;
+    color: #909090;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.banners button.buyNow {
+    padding: 16px 56px;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    color: #000000;
+    margin-top: 16px;
+    width: 80%;
+    height: 56px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.banners .bnr:nth-child(even) {
+    background-color: #353535;
+    /* Çift sıradakiler */
+
+    .bnr_title {
+        color: #FFFFFF;
+    }
+
+    .bnr_subtitle {
+        color: #909090;
+    }
+
+    .bnr button.buyNow {
+        background-color: #FFFFFF;
+    }
+
+}
+
+img.bnrImg {
+    max-width: 300px;
+}
+
+
+.container_categories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 65px 16px;
+}
+
+.container_categories .top {
+    font-size: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+}
+
+.container_categories .top .title {
+    width: 65%;
+}
+
+span.arrow {
+    font-size: 33px;
+    font-weight: 500;
+    margin: 18px 0px;
+}
+.container_categories{
+    background-color: #FAFAFA;
+}
+
+.categories {
+   justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.categoryCard {
+    margin: 8px;
+    padding: 16px 8px;
+    width: 160px;
+        text-align: center;
+        border-radius: 16px;
+        background-color:  #EDEDED;
+}

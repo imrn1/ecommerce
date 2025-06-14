@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Phones",
+        "icon": "img\\category-icons\\Phones.png"
+    },
+    {
+        "name": "Smart Watches",
+        "icon": "img\\category-icons\\Smart Watches.png"
+    },
+    {
+        "name": "Cameras",
+        "icon": "img\\category-icons\\Cameras.png"
+    },
+    {
+        "name": "Headphones",
+        "icon": "img\\category-icons\\Cameras.png"
+    },
+    {
+        "name": "Computers",
+        "icon": "img\\category-icons\\Cameras.png"
+    },
+    {
+        "name": "Gaming",
+        "icon": "img\\category-icons\\Cameras.png"
+    }
+]
